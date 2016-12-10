@@ -1,0 +1,149 @@
+/**
+ * This stylesheet is intended for things like colors and text decoration.
+ * It's not for layout-type things that could be dependent on RTL.
+ * It's nor for responsive-type things that are dependent on breakpoints.
+ */
+
+#header {
+  background-color: #1F4E79;
+  color: #FFFFFF;
+}
+
+#header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#secondary-menu a:hover {
+  text-decoration: underline;
+}
+
+#header #secondary-menu li {
+  border-right: 2px solid #FFFFFF;
+  margin-right: 5px;
+}
+
+#header #secondary-menu li.last {
+  border-right: none;
+  margin-right: 0;
+}
+
+#site-name {
+  font-family: 'Ramaraja', serif;
+  font-size: 44px;
+  letter-spacing: 3px;
+}
+
+#navigation {
+  background-color: #C8DEEC;
+  border-bottom: 8px solid #C5E0B3;
+}
+
+#navigation a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  text-decoration: underline;
+}
+
+.node-type-page #content,
+.page-user #content,
+.page-contact #content {
+  padding-bottom: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+.page-node-add .horizontal-tabs-panes,
+.page-node-edit .horizontal-tabs-panes {
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.page-node #content {
+  padding-bottom: 5%;
+}
+
+.section-cffa #content a {
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: #C5E0B3;
+}
+
+#block-cffa-app-dash-create-grant a {
+  color: #C8DEEC;
+}
+
+#edit-actions .button,
+#edit-actions .form-submit {
+  margin: 5px;
+}
+
+#block-views-applications-discussion-block {
+  border-left: 2px solid #000000;
+  margin-top: 32px;
+  padding-left: 10px;
+}
+
+input.postal-code {
+  width: 250px;
+}
+
+select.state {
+  height: 1.8em;
+  width: 250px;
+}
+
+#user-register-form label,
+#user-login label,
+#user-pass label {
+  display: inline-block;
+  width: 125px;
+}
+
+#footer {
+  font-size: 12px;
+  height: 28px;
+}
+#footer #block-menu-menu-legal {
+  margin-left: 10px;
+}
+#footer #block-menu-menu-legal li {
+  padding: 0;
+}
+#footer #block-menu-menu-legal a {
+  border-right: 2px solid black;
+  padding: 0 5px;
+}
+#footer #block-menu-menu-legal .last a {
+  border-right: none;
+}
+
+#register-now {
+  background-color: #1F4E79;
+  border: 2px solid #FF0000;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  float: right;
+  font-size: 30px;
+  padding: 25px;
+}
+
+#great-expectations {
+  float: right;
+}
+
+table.field-multiple-table .form-wrapper {
+  margin-bottom: 6px;
+}
+
+div.addressfield-container-inline > div.form-item {
+  float: none;
+}
